@@ -1,0 +1,41 @@
+nav{
+    width: 100%;
+    /* border: 1px solid red; */
+    /* height: 50px; */
+    background-color: rgb(52, 52, 52);
+}
+nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between ;
+    padding: 10px;
+  }
+  .ullist{
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 1px solid red; */
+  }
+  li{
+    /* border: 1px solid green; */
+    display: inline-block;
+    margin: 5px;
+    margin-right: 30px;
+    /* padding: px; */
+    transition: all 0.2s ease-in-out;
+  }
+
+  .logo{
+      padding-top: 10px;
+     /* border: 1px solid pink;  */
+      font-size: 30px;
+      color: red;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      transition: 0.2s ease-in-out;
+  }
+  li a:hover{
+    color: red;
+  }
